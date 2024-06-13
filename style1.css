@@ -1,0 +1,88 @@
+
+:root{
+    --negro: #000;
+    --blanco: #fff;
+    --primario: #1e88e5;
+    --secundario: #ffeb3b;
+    --colorbtn: #fbc02d;
+    --azulclaro: #c2e1eb;
+
+}
+div{
+    text-align: center;
+    /*border: 2px solid black;*/
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--secundario);
+}
+.fondo p{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.fondo{
+    background-image: url(/RECURSOS/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-4 img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.col-2 img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.carousel-item img{
+    width: 40%;
+    height: 100%;
+}
+
+header{
+    margin: -25px;
+    padding: 10px 0 30px 0;
+    background-color: var(--primario);
+}
+.anuncio{
+    height: 310px;
+    background-color: var(--negro);
+}
+.main{
+    height: 465px;
+    background-color: var(--blanco);
+}
+.secction{
+    height: 240px;
+    background-color: var(--azulclaro);
+}
+.flooter{
+    height: 90px;
+    background-color: var(--primario);
+}
+p{
+    font-size: 20px;
+}
+
+
+input {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--secundario);
+    color: var(--primario);
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input:hover {
+    background-color: var(--colorbtn);
+    transform: scale(1.1); 
+}

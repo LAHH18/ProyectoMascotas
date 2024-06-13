@@ -1,0 +1,45 @@
+:root{
+    --primario: #1e88e5;
+    --secundario: #ffeb3b;
+    --colorbtn: #fbc02d;
+    --azulclaro: #c2e1eb;
+}
+
+.input-field{
+    background-color: var(--azulclaro);
+    margin: 15px 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 12px;
+}
+
+input{
+    width: 100%;
+    background-color: var(--azulclaro);
+    border: none;
+}
+
+i{
+    padding: 0 10px;
+    color: var(--colorbtn);
+}
+
+p a{
+    text-decoration: none;
+    color: var(--secundario);
+}
+
+
+/*Pseudoclases*/
+input:valid {
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+}
+input:invalid {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
